@@ -1,0 +1,372 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#background-image1, #image1{
+    width: 100%;
+    height: 600px;
+}
+
+#movie-night-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    margin: 80px 0px;
+}
+
+#movie-night-description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#movie-night-title{
+    color:  #FB8500;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: left;
+    letter-spacing: 0.125em;
+    margin-bottom: 40px;
+}
+
+#mn-detail{
+    width: 854px;
+    height: 400px;
+    background: linear-gradient(90deg, #000000 0%, #FB8500 62.29%, #FDC500 100%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: justify;
+    letter-spacing: 0.125em;
+    box-sizing: border-box;
+    padding: 55px 74px 0px 74px;
+    color: white;
+}
+
+.page-title-container{
+    position: relative;
+    padding-left: 80px;
+    top: -500px;
+}
+
+.page-title{
+    width: 45%;
+    font-family: 'RobotoBold';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#movie-small-title{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.125em;
+    color: #b5179e;
+    margin-bottom: 15px;
+}
+
+#movie-big-title{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.125em;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.explaination{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.125em;
+    font-variant: small-caps;
+    color: #D6CCC2;
+    margin-bottom: 14px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin-top: 40px;
+}
+
+.main-container{
+    flex: 60%;
+    padding-left: 80px;
+    padding-right: 35px;
+}
+
+.film-type:hover{
+    color: #F72585 !important;
+    cursor: pointer;
+}
+
+#all {
+    color: #b5179e;
+}
+
+.side-container{
+    flex: 20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+#popular{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    color: #FB8500;
+    padding-top: 125px;
+    text-align: center;
+}
+
+#horizontal-line{
+    border-bottom: 2px solid #ADB5BD;
+    padding-top: 20px;
+}
+
+.trending{
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 35px;
+    color: white;
+}
+
+.trending div{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.content-trending{
+    text-decoration:none;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.125em;
+    margin-left: 8px;
+    color: white;
+}
+
+.number-trending{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.content-trending:hover{
+    color: #ffb703 !important;
+}
+
+.film-poster-container{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px 0px;
+}
+
+.left-image{
+    width: auto;
+    height: auto;
+}
+
+.left-image img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.right-content{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 25px;
+}
+
+.info{
+    font-family: 'RobotoBold';
+    color: #FB8500;
+    margin-bottom: 20px;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+    letter-spacing: 0.125em;
+    margin-bottom: 15px;
+}
+
+.year{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+    letter-spacing: 0.125em;
+    margin-bottom: 15px;
+}
+
+.label{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffaa30 !important;
+}
+
+.director-name, .actor-name{
+    font-family: "AbhayaLibreExtraBold" !important;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    color: #ffaa30 !important;
+}
+
+.movie-contents{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: white;
+}
+
+.more{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.more button{
+    border-radius: 30px;
+	border: 1px solid white;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 42px;
+	letter-spacing: 1px;
+    background: #F72585;
+    position: relative;
+}
+
+.more button:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #F00370 100%, #880C76 40%);
+}
+
+.film-type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.125em;
+    color: #6B705C;
+}
+
+.film-type-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 50px;
+}
+
+#random-card-container{
+    width: 1150px;
+    height: 500px;
+    margin-left: 80px;
+    position: relative;
+    top: -550px;
+}
+
+#random-card-container img{
+    width: 100%;
+}
+
+.random-card{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+
+#random-card1{
+    left: 0px;
+}
+
+#random-card2{
+    left: 230px;
+}
+
+#random-card3{
+    left: 485px;
+}
+
+#random-card4{
+    left: 740px;
+}
+
+#random-card5{
+    left: 970px;
+}
+
+@media screen and (max-width:1230px){
+    #random-card-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:840px){
+    #mn-detail{
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #popular{
+        padding-top: 0px;
+    }
+}

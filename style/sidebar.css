@@ -1,0 +1,202 @@
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css); */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    z-index: 999;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #F72585;
+    position: fixed;
+    right: 0px;
+    top: 20%;
+    z-index: 1999;
+    font-size: 26px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+#sidebar i{
+    margin: 4px;
+    cursor: pointer;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: #0a0908;
+}
+
+#sidebar i:hover{
+    color: #333533;
+}
+
+.hide{
+    width: 350px;
+    height: auto;
+    margin-right: 50px;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1999;
+}
+
+#hide-content{
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid #d9d9d9;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: none;
+}
+
+.welcome-container{
+    font-size: 24px;
+}
+
+.upper-bar{
+    display: flex;
+    justify-content: right;
+}
+
+.center-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#image-shown img{
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+    /* display: none; */
+}
+
+#image-hide img{
+    height: 250px;
+    width: 250px;
+    /* position: absolute; */
+    display: none;
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.sidebar-title{
+    font-family: 'AbhayaLibreExtraBold';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.welcome-content{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#mover{
+    color: #ffffff;
+}
+
+#mover i:hover{
+    color: #ffffff !important;
+}
+
+#hide-partner{
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid #d9d9d9;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: none;
+}
+
+.title1{
+    font-family: 'AbhayaLibreExtraBold';
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+#imdb{
+    font-size: 38px;
+    color: #ffba08;
+}
+
+#behance{
+    font-size: 38px;
+    color: #0056ff;
+}
+
+#font-awesome{
+    font-size: 32px;
+    color: #0056ff;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#word-logo{
+    display: inline-block;
+    font-family: 'AbhayaLibreExtraBold';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#ourLogo img{
+    width: 250px;
+}
+
+#school-logo img{
+    width: 200px;
+}
+
+.small-contents{
+    font-family: 'AbhayaLibreExtraBold';
+    font-size: 12px;
+    color: #6b705c;
+}
+
+#school-logo img{
+    cursor: pointer;
+}

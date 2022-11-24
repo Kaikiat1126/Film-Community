@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "AbhayaLibre";
+    src: url("../font/AbhayaLibre-Medium.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-Medium.ttf")
+}
+
+@font-face{
+    font-family: "AbhayaLibreExtraBold";
+    src: url("../font/AbhayaLibre-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratExtraBold";
+    src: url("../font/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../font/Roboto-Bold.ttf");
+}

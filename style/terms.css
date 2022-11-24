@@ -1,0 +1,272 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.pt-contents{
+    color: white;
+}
+
+#pt-main-container p{
+    font-family: 'AbhayaLibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.contact{
+    font-family: 'AbhayaLibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'AbhayaLibre';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    margin-bottom: -18px;
+    color: #FCA311;
+}
+
+h3{
+    font-family: 'AbhayaLibreExtraBold';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: justify;
+    color: #fcbf49;
+    margin-bottom: -15px;
+}
+
+ul{
+    font-family: 'AbhayaLibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+}
+
+li{
+    line-height: 28px;
+}
+
+#notice{
+    font-family: 'AbhayaLibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: white;
+    margin-top: 88px;
+}
+
+#privacy-intro{
+    font-family: 'AbhayaLibreExtraBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: white;
+    margin-top: 88px;
+    margin-bottom: -58px;
+}
+
+#nextline{
+    font-family: 'AbhayaLibre';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: #FCA311
+}
+
+.row {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 80px;
+}
+
+.container{
+    width: auto;
+    height: 380px;
+    background: #F5F3F4;
+}
+
+.title-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 225px;
+    padding-left: 96px;
+    align-items: baseline;
+}
+
+#title{
+    font-family: 'AbhayaLibreExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: justify;
+    color: #000000;
+    padding-right: 20px;
+}
+
+#annoucement{
+    font-family: 'AbhayaLibre';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+
+#pt-main-container{
+    flex: 60%;
+    padding-left: 95px;
+    padding-right: 90px;
+}
+
+#straight-line{
+    flex: 1%;
+    margin-top: 88px;
+    margin-bottom: 40px;
+    border-left: 2px solid #ADB5BD;
+}
+
+.side-container{
+    flex: 21%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#note-update{
+    font-family: 'AbhayaLibre';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+#popular{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    color: #FB8500;
+    padding-top: 55px;
+    text-align: center;
+}
+
+#horizontal-line{
+    border-bottom: 2px solid #ADB5BD;
+    padding-top: 20px;
+}
+
+.trending{
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.trending div{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.content-trending{
+    text-decoration:none;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.125em;
+    margin-left: 8px;
+    color: white;
+}
+
+.number-trending{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.content-trending:hover{
+    color: #ffb703 !important;
+}
+
+.adverst-container{
+    justify-content: center;
+}
+
+#words{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.125em;
+    color: #FB8500;
+    padding-top: 60px;
+    text-align: center;
+    margin: 4px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 250px;
+    height: 250px;
+}
+
+.adv-image{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.adv-image-text{
+    position: absolute;
+    font-size: 30px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.3);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    z-index: 999;
+    color: white;
+    font-family: "AbhayaLibreExtraBold";
+}

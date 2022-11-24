@@ -1,0 +1,478 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#article-background1, #image1{
+    width: 100%;
+    height: 600px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: 40px 0px;
+}
+
+.main-container{
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#movie-night-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#intro-movie-night{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    margin-left: 40px;
+}
+
+#movie-night-title{
+    color: #FB8500;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.movie-night-feedback-content{
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#movie-night-image img{
+    width: 280px;
+    height: 280px;
+}
+
+.side-container{
+    flex: 21%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.adverst-container{
+    justify-content: center;
+}
+
+#words{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.125em;
+    color: #FB8500;
+    padding-top: 40px;
+    text-align: center;
+    margin: 4px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 250px;
+    height: 250px;
+}
+
+.adv-image{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.adv-image-text{
+    position: absolute;
+    font-size: 30px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.3);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    z-index: 999;
+    color: white;
+    font-family: "AbhayaLibreExtraBold";
+}
+
+.director-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 35px;
+    padding-right: 30px;
+}
+
+#director-title{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    font-variant: small-caps;
+    color: white;;
+    margin-bottom: 10px;
+}
+
+.director-intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.director-avatars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 18px 0px;
+}
+
+.avatars-image{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 100px;
+}
+
+.avatars-image img{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.director-name{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding-left: 20px;
+}
+
+.rate-title{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: white;
+}
+
+.button-more{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button-more button{
+    border-radius: 30px;
+	border: 1px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+    font-variant: small-caps;
+	padding: 14px 46px;
+	letter-spacing: 1px;
+    background: #F72585;
+    position: relative;
+}
+
+.button-more button:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #F00370 100%, #880C76 40%);
+}
+
+.browse-container, .rating-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.browse-upper, .rating-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.function-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.function-bar div{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #8a897c;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.function-bar div:hover{
+    color: #ffb703 !important;
+}
+
+#popular, #sci_fi{
+    color: #FB8500;
+}
+
+.poster-container{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.poster-container img{
+    width: 180px;
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.change-page{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -25px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #d9d9d9;
+    border-radius: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#first-page1, #first-page2{
+    background-color: #FFEE32;
+}
+
+#random-card-container{
+    width: 1150px;
+    height: 500px;
+    margin-left: 80px;
+    position: relative;
+    top: -550px;
+}
+
+#random-card-container img{
+    width: 100%;
+}
+
+.random-card{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+
+#random-card1{
+    left: 0px;
+}
+
+#random-card2{
+    left: 230px;
+}
+
+#random-card3{
+    left: 485px;
+}
+
+#random-card4{
+    left: 740px;
+}
+
+#random-card5{
+    left: 970px;
+}
+
+.recommended-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 0px 80px;
+    position: relative;
+    align-items: center;
+}
+
+.orange-triangle {
+    width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(180deg, #FDC500 0%, #F72585 100%);
+    transform: rotate(-30deg);
+    position: absolute;
+    left: -100px;
+    top: -140px;
+    z-index: -100;
+}
+
+#viewPager-card-container{
+    width: 1150px;
+    height: 500px;
+    position: relative;
+    margin-top: 50px;
+}
+
+#viewPager-card-container img{
+    width: 100%;
+}
+
+.viewPager-card{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+}
+
+#viewPager-card1{
+    left: 60px;
+    z-index: 700;
+}
+
+#viewPager-card2{
+    left: 240px;
+    z-index: 800;
+}
+
+#viewPager-card3{
+    left: 460px;
+    z-index: 999;
+}
+
+#viewPager-card4{
+    left: 710px;
+    z-index: 800;
+}
+
+#viewPager-card5{
+    left: 890px;
+    z-index: 700;
+}
+
+#viewPager-left, #viewPager-right{
+    position: absolute;
+    color: #faa916;
+    font-size: 30px;
+    height: 400px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#viewPager-left{
+    left: 20px;
+}
+
+#viewPager-right{
+    left: 1110px;
+}
+
+#viewPager-left .fa-chevron-left:hover,
+#viewPager-right .fa-chevron-right:hover
+{
+    cursor:pointer
+}
+
+.button-findmore{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button-findmore button{
+    border-radius: 30px;
+	border: 1px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+    font-variant: small-caps;
+	padding: 14px 46px;
+	letter-spacing: 1px;
+    background: #F72585;
+    position: relative;
+}
+
+.button-findmore button:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #F00370 100%, #880C76 40%);
+}
+
+@media screen and (max-width:1125px){
+
+    #random-card-container{
+        display: none;
+    }
+
+    .button-more{
+        text-align: center;
+    }
+
+    .image-container img{
+        margin: 20px;
+    }
+
+    .director-container{
+        margin-left: 55px;
+    }
+
+    .director-intro{
+        flex-direction: row;
+    }
+
+    .director-avatars{
+        margin: 18px 40px;
+    }
+
+    .recommended-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:830px){
+    #movie-night-image{
+        margin-top: 50px;
+    }
+}

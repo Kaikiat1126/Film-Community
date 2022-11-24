@@ -1,0 +1,327 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#background-image1, #image1{
+    width: 100%;
+    height: 600px;
+}
+
+.page-title-container{
+    position: relative;
+    padding-left: 80px;
+    top: -500px;
+}
+
+.page-title{
+    width: 45%;
+    font-family: 'RobotoBold';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#celebrity-small-title{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.125em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#celebrity-big-title{
+    font-family: 'RobotoBold';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.125em;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.explaination{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.125em;
+    font-variant: small-caps;
+    color: #D6CCC2;
+    margin-bottom: 14px;
+}
+
+#forum-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+#intro-forum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-right: 80px;
+}
+
+#event-forum-title{
+    color: #FB8500;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 0.125em;
+}
+
+#event-forum-content{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+#forum-image-container img{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin-top: 40px;
+}
+
+.main-container{
+    flex: 60%;
+    padding-left: 80px;
+    padding-right: 35px;
+}
+
+.side-container{
+    flex: 20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 30px;
+}
+
+.side-image{
+    display: flex;
+    justify-content: center;
+}
+
+.side-top-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.side-row{
+    margin: 10px 0px;
+}
+
+.title-container{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, #B5179E 0%, #3F37C9 100%);
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.actor-info-container{
+    padding-left: 20px;
+}
+
+.avatars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.avatars-image{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 100px;
+}
+
+.avatars-image img{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.director-name{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding-left: 20px;
+}
+
+.top-title{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.125em;
+    color: #ffffff;
+    display: flex;
+    margin: 10px 0px;
+}
+
+.celebrities-container{
+    margin: 40px 0px;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px 0px;
+}
+
+.left-image{
+    width: auto;
+    height: auto;
+}
+
+.left-image img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.right-content{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 25px;
+}
+
+.info{
+    font-family: 'RobotoBold';
+    color: #FB8500;
+    margin-bottom: 20px;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.125em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.week{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.125em;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #880C76 !important;
+}
+
+.small-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.famous-movie{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.celebritycontents{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #D6CCC2;
+}
+
+.more{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.more button{
+    border-radius: 30px;
+	border: 1px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 42px;
+	letter-spacing: 1px;
+    background: #F72585;
+    position: relative;
+}
+
+.more button:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #F00370 100%, #880C76 40%);
+}
+
+@media screen and (max-width:950px){
+    #forum-container{
+        flex-wrap: wrap;
+    }
+    
+    #forum-image-container img{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .page-title{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:530px){
+    .page-title{
+        width: 55%;
+    }
+
+    .page-title-container {
+        top: -540px;
+    }
+}
